@@ -1,14 +1,11 @@
-// const mysql = require("mysql");
-var con = mysql.createConnection({
-  host: "localhost",
-  user: "forest",
-  password: "",
-  database: "db_name"
-});
+const mysql = require("mysql");
 
-con.connect(err => {
+const info = require("./info");
+var db = mysql.createConnection(info);
+
+db.connect(err => {
   if (err) throw err;
-  console.log("db is running");
+  else console.log("db is running");
 });
 
-module.exports = con;
+module.exports = db;

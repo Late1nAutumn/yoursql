@@ -1,0 +1,12 @@
+#tables {
+  background-color: #ccc;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 50px;
+  min-height: 50px;
+  min-width: 100px;
+}
+#infoDisplay {
+  color: crimson;
+}

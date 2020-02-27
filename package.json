@@ -1,7 +1,7 @@
 {
-  "name": "full-stack-framework",
+  "name": "yoursql",
   "version": "1.0.0",
-  "description": "sample file",
+  "description": "mock mysql database",
   "author": "Forest",
   "license": "UNLICENSED",
   "engines": {
@@ -13,7 +13,9 @@
     "test": ""
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "express": "^4.17.1",
+    "mysql": "^2.18.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2"
   },
